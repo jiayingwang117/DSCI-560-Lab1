@@ -1,0 +1,9 @@
+ba7c872 - Ashley, 27 minutes ago : final commit
+70b65a0 - Ashley, 33 minutes ago : scraped
+b94cf3c - Ashley, 34 minutes ago : modified web.py
+91bd456 - Ashley, 35 minutes ago : modified web.py
+9829e36 - Ashley, 54 minutes ago : modified web_scraper.py
+6b230c3 - Ashley, 56 minutes ago : modified web_scraper.py
+fddd733 - Ashley, 2 hours ago : Merge branch 'main' of github.com:jiayingwang117/DSCI-560-Lab1
+aae4a3e - Ashley, 3 hours ago : Initial Commit
+afbdc73 - jiayingwang117, 3 hours ago : Initial commit
