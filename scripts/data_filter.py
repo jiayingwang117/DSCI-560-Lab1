@@ -10,7 +10,7 @@ market_banner = soup.find('div', class_ = "MarketsBanner-marketData")
 market_cards =market_banner.find_all("a", class_ = "MarketCard-container")
 #market_cards = soup.select('a.MarketCard-container')
 
-print(market_cards)
+# print(market_cards)
 
 for card in market_cards:
 	symbol = card.find("span", class_ = "MarketCard-symbol").text
@@ -18,7 +18,7 @@ for card in market_cards:
 	change_pct = card.find("div", class_ = "MarketCard-changeData").find("span", class_ = "MarketCard-changesPct").text
 	market_data.append([symbol, stock_position, change_pct])
 
-	print(market_data)
+	# print(market_data)
 
 print("Filtering latest news data...")
 latest_news_data = []
