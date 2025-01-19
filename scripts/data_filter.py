@@ -6,8 +6,9 @@ with open("../data/raw_data/web_data.html", "r") as file:
 
 print("Filtering market banner data...")
 market_data = []
-# market_cards = soup.find_all("a", class_ = "MarketCard-container MarketCard-up MarketCard-wrap")
-market_cards = soup.select('a.MarketCard-container')
+market_banner = soup.find('div', class_ = "MarketsBanner-marketData")
+market_cards =market_banner.find_all("a", class_ = "MarketCard-container")
+#market_cards = soup.select('a.MarketCard-container')
 
 print(market_cards)
 
